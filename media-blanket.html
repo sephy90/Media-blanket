@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+
+<form class="form-horizontal" action="media-blanket.php" method="post">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Loan Application</legend>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="title">Title</label>
+  <div class="col-md-4">
+    <select id="title" name="title" class="form-control">
+      <option value="Mr">Mr</option>
+      <option value="Mrs">Mrs</option>
+      <option value="Miss">Miss</option>
+      <option value="Ms">Ms</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="firstname">First Name</label>  
+  <div class="col-md-4">
+  <input id="firstname" name="firstname" type="text" placeholder="First Name" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="lastname">Surname</label>  
+  <div class="col-md-4">
+  <input id="lastname" name="lastname" type="text" placeholder="Surname" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="m_status">Marital Status</label>
+  <div class="col-md-4">
+    <select id="m_status" name="m_status" class="form-control">
+      <option value="Single">Single</option>
+      <option value="Married">Married</option>
+      <option value="Divorced">Divorced</option>
+      <option value="Cohabiting">Cohabiting</option>
+    </select>
+  </div>
+</div>
+
+<!-- Prepended text-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="loanamount">Loan Amount</label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">£</span>
+      <input id="loanamount" name="loanamount" class="form-control" placeholder="1000" type="text" required="">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="loanterm">Loan Term</label>
+  <div class="col-md-4">
+    <select id="loanterm" name="loanterm" class="form-control">
+      <option value="6">6 Months</option>
+      <option value="12">12 Months</option>
+      <option value="24">24 Months</option>
+    </select>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="guarantor">Guarantor</label>
+  <div class="col-md-4">
+    <select id="guarantor" name="guarantor" class="form-control">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="dateofbirth">Date of Birth</label>  
+  <div class="col-md-4">
+  <input id="dateofbirth" name="dateofbirth" type="text" placeholder="DD-MM-YYYY" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <input type="submit" id="submit" name="submit" class="btn btn-primary"></input>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+
+</body>
+</html>
